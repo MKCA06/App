@@ -69,7 +69,7 @@ function Tabs() {
         unmountOnBlur:true,
         tabBarLabel: 'Gatepass',
         tabBarIcon: ({ color, size }) => (
-          <Material name="perm-contact-cal" color={color} size={size} />
+          <MaterialCommunityIcons name="home" color={color} size={size} />
         ),
       }}
        />
@@ -77,7 +77,7 @@ function Tabs() {
         options={{
         tabBarLabel: 'OtherApps',
         tabBarIcon: ({ color, size }) => (
-          <Material name="apps" color={color} size={size} />
+          <MaterialCommunityIcons name="home" color={color} size={size} />
         ),
       }}/>
 

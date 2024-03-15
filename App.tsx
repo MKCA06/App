@@ -1,12 +1,14 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import NewMeetingStack from './NewMeetingStack';
+import Bottom from './Bottom';
+import RoomComponent from './Room';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <NewMeetingStack/>
+      <RoomComponent />
+      <Bottom/>
     </NavigationContainer>
   );
 };
