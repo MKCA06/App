@@ -1,12 +1,12 @@
-import 'react-native-gesture-handler'; // Make sure to import this at the top
+import 'react-native-gesture-handler';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import NewMeetingStack from './NewMeetingStack'; // Import your stack navigator
+import NewMeetingStack from './NewMeetingStack';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <NewMeetingStack />
+      <NewMeetingStack/>
     </NavigationContainer>
   );
 };
