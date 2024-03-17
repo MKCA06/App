@@ -5,7 +5,7 @@ import { Header } from './src/components/reusable/Header'
 const RoomComponent = () => {
   return (
     <View>
-      <Header title="Manik" />
+      <Header title="Meeting Room Booking" />
       {/* <Text>Room</Text> */}
     </View>
   )
