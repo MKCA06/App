@@ -88,10 +88,10 @@ const Home = () => {
         </View>
       </Modal>
 
-      {/* Plus button for selecting time slot */}
-      <TouchableOpacity style={styles.plusButton} onPress={() => setModalVisible(true)}>
+      Plus button for selecting time slot
+      {/* <TouchableOpacity style={styles.plusButton} onPress={() => setModalVisible(true)}>
         <Ionicons name="add" size={30} color="white" />
-      </TouchableOpacity>
+      </TouchableOpacity> */}
     </View>
   );
 }
